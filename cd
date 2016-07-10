@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>IAM's</p>
+
+<button onclick="dispip()">Ips</button>
+
+<p id="a"></p>
+
+<script>
+function dispip() {
+    var x = document.URL;
+    document.getElementById("a").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
+
+
